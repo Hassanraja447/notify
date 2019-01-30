@@ -71,3 +71,42 @@ body {
         font-weight: 700;
     }
 }
+
+
+///////////// testimonial //////////////
+
+#testimonial {
+    footer {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    img {
+        &:hover {
+            
+        }
+    }
+    .social {
+
+        p {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #c5c5c5;
+
+            &:hover {
+                cursor: pointer;
+                transition: background 0.2s;
+                background: #2ecc71;
+            }
+        }
+    }
+}
+
+#footer {
+    background: #e3e3e3;
+    color: #848484;
+}

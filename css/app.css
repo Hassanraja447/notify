@@ -7527,4 +7527,24 @@ body {
   #notify a {
     font-weight: 700; }
 
+#testimonial footer {
+  font-size: 18px;
+  font-weight: 700; }
+#testimonial h3 {
+  font-size: 24px;
+  font-weight: 600; }
+#testimonial .social p {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #c5c5c5; }
+  #testimonial .social p:hover {
+    cursor: pointer;
+    transition: background 0.2s;
+    background: #2ecc71; }
+
+#footer {
+  background: #e3e3e3;
+  color: #848484; }
+
 /*# sourceMappingURL=app.css.map */
